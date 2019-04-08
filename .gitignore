@@ -1,6 +1,7 @@
 /node_modules
 /build
 /client/node_modules
+nodemon.json
 
 .DS_Store
 
