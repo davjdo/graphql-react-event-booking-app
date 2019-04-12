@@ -28,21 +28,30 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  align-items: center;
 }
 
 .main-navigation__items li {
   margin: 0 1.5rem;
 }
 
-.main-navigation__items a {
+.main-navigation__items a,
+.main-navigation__items button {
   text-decoration: none;
   color: #fff;
   padding: 0.25rem 0.5rem;
+  border: none;
+  font: inherit;
+  background: transparent;
+  cursor: pointer;
+  margin: 0;
 }
 
 .main-navigation__items a:hover, 
 .main-navigation__items a:active, 
-.main-navigation__items a.active {
+.main-navigation__items a.active, 
+.main-navigation__items button:hover,
+.main-navigation__items button:active  {
   background: #ffffff;
   color: #5101d1;
   border-radius: 5px;
